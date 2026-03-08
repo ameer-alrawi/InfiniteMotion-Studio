@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" alt="InfiniteMotion Studio Banner" src="" />
+  <img width="100%" alt="InfiniteMotion Studio Banner" src="InfiniteMotionLogo.png" />
 
   # InfiniteMotion Studio 2.1
 
