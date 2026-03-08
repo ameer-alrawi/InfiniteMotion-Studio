@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" alt="InfiniteMotion Studio Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" style="border-radius: 12px; margin-bottom: 20px;" />
+  <img width="1200" alt="InfiniteMotion Studio Banner" src="" style="border-radius: 12px; margin-bottom: 20px;" />
 
   # 🎬 InfiniteMotion Studio 2.1
 
@@ -48,23 +48,10 @@ InfiniteMotion Studio reimagines video editing by moving away from static frames
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from the community! To contribute:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please ensure your code adheres to the existing TypeScript and styling conventions.
-
----
 
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-*Built with ❤️ for creators, developers, and motion designers.*
+*Built for creators and motion designers.*
