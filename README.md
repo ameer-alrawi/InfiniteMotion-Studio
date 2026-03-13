@@ -45,6 +45,14 @@ The application state is managed via a strict, immutable history stack that enab
 *   🎨 **Advanced Styling & Effects:** Support for dynamic animated mesh gradients, frosted glass overlays, drop shadows, strokes, and complex object masking.
 *   💻 **Raw Code Injection:** Add "Code" assets to inject raw HTML, CSS, and SVG directly into the rendering pipeline for limitless visual possibilities.
 
+## 🌌 Backgrounds, Grids & Canvas Textures
+
+InfiniteMotion Studio provides deep customization for your project's visual foundation, allowing you to build rich, textured compositions before adding a single asset.
+
+*   **Dynamic Background Types:** Choose from Solid Colors, Linear Gradients, Radial Gradients, Frosted Glass, or the highly advanced **Animated Mesh Gradient** (which blends up to 8 custom colors with adjustable speed and angle).
+*   **Editor Grids:** Toggle a customizable workspace grid to aid in spatial alignment. Choose from *Lines, Dots, Crosses,* or *Isometric* styles. You can pick any custom grid color and even choose whether the grid should be visible in your final exported video.
+*   **Overlays & Textures:** Add cinematic polish with adjustable **Film Grain / Noise** and structural overlays like *Micro Dots, Technical Grids,* or *CRT Scanlines*. Fine-tune the opacity of these patterns to create everything from retro VHS vibes to sleek, modern technical interfaces.
+
 ## 🔤 Typography & Arabic Language Support
 
 InfiniteMotion Studio is built with global creators in mind, featuring a robust text rendering engine that fully supports complex text shaping, right-to-left (RTL) languages, and beautiful typography. 
