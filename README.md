@@ -28,7 +28,9 @@ At the core of the studio is a highly optimized HTML5 Canvas rendering pipeline.
 *   **Hybrid DOM/Canvas Compositing:** While standard assets (video, image, text) are drawn directly to the canvas, "Code" assets (raw HTML/CSS/SVG) are rendered via a synchronized DOM overlay that perfectly tracks the virtual camera's matrix transformations, allowing for CSS animations to exist seamlessly within the video space.
 
 ### 2. Deterministic Export & Media Sync
+
 ![Deterministic Export & Media Sync](src/screenshot2.png)
+
 Exporting high-fidelity video in the browser requires bypassing standard real-time playback limitations.
 *   **WebCodecs Integration:** The export pipeline utilizes the low-level `VideoEncoder` and `AudioEncoder` APIs to bake frames directly to MP4 (H.264/AAC) or WebM (VP9/Opus) containers.
 *   **Binary-Lock Frame Sync:** To ensure zero dropped frames during rendering, the engine uses a custom "binary-lock" mechanism that pauses the rendering loop until HTMLVideoElements confirm their `readyState` has buffered the exact required frame.
@@ -130,12 +132,19 @@ InfiniteMotion Studio is designed for professional editors, featuring a comprehe
 
 ### Navigating the Workspace
 * **Asset Hub (Left):** Quickly add new elements to your project. Click the icons to create Text or Code assets, upload Images and Videos, or open the dedicated Audio panel to manage your soundtracks and sound effects.
+* 
 ![Asset Hub](src/screenshot10.png)
+
 *   **Canvas Viewport (Center):** Use `Space + Click & Drag` to pan around the infinite canvas. Scroll to zoom. Select assets to move, scale, or rotate them.
+*   
 ![Canvas Viewport](src/screenshot6.png)
+
 *   **Timeline (Bottom):** Scrub the playhead to view your animation. Toggle the **Magnet** icon to enable/disable snapping. Hold `Shift` and drag to create a marquee selection of multiple clips.
+*   
 ![Timeline](src/screenshot7.png)
+
 *   **Inspector (Right):** Modify the properties of the currently selected asset or camera keyframe. Adjust typography, colors, entrance/exit animations, and shadow effects.
+*   
 ![Inspector](src/screenshot8.png)
 
 ### Creating Animations
