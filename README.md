@@ -48,7 +48,7 @@ The application state is managed via a strict, immutable history stack that enab
 *   🎨 **Advanced Styling & Effects:** Support for dynamic animated mesh gradients, frosted glass overlays, drop shadows, strokes, and complex object masking.
 *   💻 **Raw Code Injection:** Add "Code" assets to inject raw HTML, CSS, and SVG directly into the rendering pipeline for limitless visual possibilities.
 
-![Key Features](screenshot3.png)
+![Key Features](screenshot3.gif)
 
 ## 🌌 Backgrounds, Grids & Canvas Textures
 
