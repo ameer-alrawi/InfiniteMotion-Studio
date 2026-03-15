@@ -16,7 +16,7 @@
 Welcome to **InfiniteMotion Studio**, a next-generation, browser-based video editing environment. Built as a closed-source, proprietary platform, InfiniteMotion breaks free from traditional constrained video canvases and introduces a spatial editing workflow. Users can animate elements dynamically, control a virtual camera to navigate complex scenes, and inject raw HTML/CSS—all baked and exported locally via a custom hardware-accelerated WebCodecs pipeline.
 
 ## 🏗️ System Architecture & Technical Innovations
-
+![System Architecture & Technical Innovations](screenshot1.png)
 Because InfiniteMotion Studio is a proprietary codebase, this section provides a high-level overview of the engineering and architectural decisions that power the platform.
 
 ### 1. Custom Canvas Rendering Engine
