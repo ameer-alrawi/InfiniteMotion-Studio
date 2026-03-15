@@ -48,7 +48,10 @@ The application state is managed via a strict, immutable history stack that enab
 *   🎨 **Advanced Styling & Effects:** Support for dynamic animated mesh gradients, frosted glass overlays, drop shadows, strokes, and complex object masking.
 *   💻 **Raw Code Injection:** Add "Code" assets to inject raw HTML, CSS, and SVG directly into the rendering pipeline for limitless visual possibilities.
 
-![Key Features](screenshot3.gif)
+<video width="320" height="240" autoplay loop muted>
+  <source src="screenshot3.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ## 🌌 Backgrounds, Grids & Canvas Textures
 
