@@ -58,6 +58,8 @@ InfiniteMotion Studio provides deep customization for your project's visual foun
 *   **Editor Grids:** Toggle a customizable workspace grid to aid in spatial alignment. Choose from *Lines, Dots, Crosses,* or *Isometric* styles. You can pick any custom grid color and even choose whether the grid should be visible in your final exported video.
 *   **Overlays & Textures:** Add cinematic polish with adjustable **Film Grain / Noise** and structural overlays like *Micro Dots, Technical Grids,* or *CRT Scanlines*. Fine-tune the opacity of these patterns to create everything from retro VHS vibes to sleek, modern technical interfaces.
 
+![Backgrounds, Grids & Canvas Textures](src/screenshot4.png)
+
 ## 🔤 Typography & Arabic Language Support
 
 InfiniteMotion Studio is built with global creators in mind, featuring a robust text rendering engine that fully supports complex text shaping, right-to-left (RTL) languages, and beautiful typography. 
@@ -66,6 +68,8 @@ InfiniteMotion Studio is built with global creators in mind, featuring a robust 
 *   **Native Arabic Support:** The canvas engine flawlessly renders connected Arabic script without breaking character ligatures.
 *   **Curated Arabic Fonts:** Instantly access top-tier Arabic typefaces designed for high-end motion graphics, including *Cairo, Almarai, Tajawal, Amiri, El Messiri,* and *Lateef*.
 *   **Advanced Text Styling:** Apply linear/radial gradients, custom strokes, padding, rounded backgrounds, and drop shadows directly to your text layers, regardless of the language.
+
+![Typography & Arabic Language Support](src/screenshot5.png)
 
 ## ⌨️ Keyboard Shortcuts & Hotkeys
 
@@ -125,10 +129,14 @@ InfiniteMotion Studio is designed for professional editors, featuring a comprehe
 ## 💡 Workflow Overview
 
 ### Navigating the Workspace
-* **Left Sidebar (Asset Hub):** Quickly add new elements to your project. Click the icons to create Text or Code assets, upload Images and Videos, or open the dedicated Audio panel to manage your soundtracks and sound effects.
+* **Asset Hub (Left):** Quickly add new elements to your project. Click the icons to create Text or Code assets, upload Images and Videos, or open the dedicated Audio panel to manage your soundtracks and sound effects.
+* ![Asset Hub](src/screenshot10.png)
 *   **Canvas Viewport (Center):** Use `Space + Click & Drag` to pan around the infinite canvas. Scroll to zoom. Select assets to move, scale, or rotate them.
+*   ![Canvas Viewport](src/screenshot6.png)
 *   **Timeline (Bottom):** Scrub the playhead to view your animation. Toggle the **Magnet** icon to enable/disable snapping. Hold `Shift` and drag to create a marquee selection of multiple clips.
+*   ![Timeline](src/screenshot7.png)
 *   **Inspector (Right):** Modify the properties of the currently selected asset or camera keyframe. Adjust typography, colors, entrance/exit animations, and shadow effects.
+*   ![Inspector](src/screenshot8.png)
 
 ### Creating Animations
 1.  **Asset Keyframing:** Select an asset on the canvas. Move the playhead in the timeline. Move the asset on the canvas—a new keyframe is automatically generated!
@@ -138,6 +146,7 @@ InfiniteMotion Studio is designed for professional editors, featuring a comprehe
 1. Click the **Export** button in the top right corner.
 2. Select your desired container (`MP4` or `WebM`), frame rate (up to 60fps), and resolution scale.
 3. Click **Start Encoding**. The application utilizes the local GPU to bake the frames frame-by-frame, ensuring perfect synchronization before prompting a download.
+   ![Exporting your Project](src/screenshot9.png)
 
 ## 🔒 License
 
