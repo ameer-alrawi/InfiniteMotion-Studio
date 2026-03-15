@@ -125,6 +125,7 @@ InfiniteMotion Studio is designed for professional editors, featuring a comprehe
 ## 💡 Workflow Overview
 
 ### Navigating the Workspace
+* **Left Sidebar (Asset Hub):** Quickly add new elements to your project. Click the icons to create Text or Code assets, upload Images and Videos, or open the dedicated Audio panel to manage your soundtracks and sound effects.
 *   **Canvas Viewport (Center):** Use `Space + Click & Drag` to pan around the infinite canvas. Scroll to zoom. Select assets to move, scale, or rotate them.
 *   **Timeline (Bottom):** Scrub the playhead to view your animation. Toggle the **Magnet** icon to enable/disable snapping. Hold `Shift` and drag to create a marquee selection of multiple clips.
 *   **Inspector (Right):** Modify the properties of the currently selected asset or camera keyframe. Adjust typography, colors, entrance/exit animations, and shadow effects.
