@@ -48,6 +48,8 @@ The application state is managed via a strict, immutable history stack that enab
 *   🎨 **Advanced Styling & Effects:** Support for dynamic animated mesh gradients, frosted glass overlays, drop shadows, strokes, and complex object masking.
 *   💻 **Raw Code Injection:** Add "Code" assets to inject raw HTML, CSS, and SVG directly into the rendering pipeline for limitless visual possibilities.
 
+![Key Features](screenshot3.png)
+
 ## 🌌 Backgrounds, Grids & Canvas Textures
 
 InfiniteMotion Studio provides deep customization for your project's visual foundation, allowing you to build rich, textured compositions before adding a single asset.
