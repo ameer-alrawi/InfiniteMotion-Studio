@@ -130,13 +130,13 @@ InfiniteMotion Studio is designed for professional editors, featuring a comprehe
 
 ### Navigating the Workspace
 * **Asset Hub (Left):** Quickly add new elements to your project. Click the icons to create Text or Code assets, upload Images and Videos, or open the dedicated Audio panel to manage your soundtracks and sound effects.
-* ![Asset Hub](src/screenshot10.png)
+![Asset Hub](src/screenshot10.png)
 *   **Canvas Viewport (Center):** Use `Space + Click & Drag` to pan around the infinite canvas. Scroll to zoom. Select assets to move, scale, or rotate them.
-*   ![Canvas Viewport](src/screenshot6.png)
+![Canvas Viewport](src/screenshot6.png)
 *   **Timeline (Bottom):** Scrub the playhead to view your animation. Toggle the **Magnet** icon to enable/disable snapping. Hold `Shift` and drag to create a marquee selection of multiple clips.
-*   ![Timeline](src/screenshot7.png)
+![Timeline](src/screenshot7.png)
 *   **Inspector (Right):** Modify the properties of the currently selected asset or camera keyframe. Adjust typography, colors, entrance/exit animations, and shadow effects.
-*   ![Inspector](src/screenshot8.png)
+![Inspector](src/screenshot8.png)
 
 ### Creating Animations
 1.  **Asset Keyframing:** Select an asset on the canvas. Move the playhead in the timeline. Move the asset on the canvas—a new keyframe is automatically generated!
@@ -146,7 +146,8 @@ InfiniteMotion Studio is designed for professional editors, featuring a comprehe
 1. Click the **Export** button in the top right corner.
 2. Select your desired container (`MP4` or `WebM`), frame rate (up to 60fps), and resolution scale.
 3. Click **Start Encoding**. The application utilizes the local GPU to bake the frames frame-by-frame, ensuring perfect synchronization before prompting a download.
-   ![Exporting your Project](src/screenshot9.png)
+
+![Exporting your Project](src/screenshot9.png)
 
 ## 🔒 License
 
