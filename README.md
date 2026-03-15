@@ -15,7 +15,7 @@
 
 Welcome to **InfiniteMotion Studio**, a next-generation, browser-based video editing environment. Built as a closed-source, proprietary platform, InfiniteMotion breaks free from traditional constrained video canvases and introduces a spatial editing workflow. Users can animate elements dynamically, control a virtual camera to navigate complex scenes, and inject raw HTML/CSS—all baked and exported locally via a custom hardware-accelerated WebCodecs pipeline.
 
-![System Architecture & Technical Innovations](screenshot1.png)
+![System Architecture & Technical Innovations](src/screenshot1.png)
 
 ## 🏗️ System Architecture & Technical Innovations
 
@@ -28,7 +28,7 @@ At the core of the studio is a highly optimized HTML5 Canvas rendering pipeline.
 *   **Hybrid DOM/Canvas Compositing:** While standard assets (video, image, text) are drawn directly to the canvas, "Code" assets (raw HTML/CSS/SVG) are rendered via a synchronized DOM overlay that perfectly tracks the virtual camera's matrix transformations, allowing for CSS animations to exist seamlessly within the video space.
 
 ### 2. Deterministic Export & Media Sync
-![Deterministic Export & Media Sync](screenshot2.png)
+![Deterministic Export & Media Sync](src/screenshot2.png)
 Exporting high-fidelity video in the browser requires bypassing standard real-time playback limitations.
 *   **WebCodecs Integration:** The export pipeline utilizes the low-level `VideoEncoder` and `AudioEncoder` APIs to bake frames directly to MP4 (H.264/AAC) or WebM (VP9/Opus) containers.
 *   **Binary-Lock Frame Sync:** To ensure zero dropped frames during rendering, the engine uses a custom "binary-lock" mechanism that pauses the rendering loop until HTMLVideoElements confirm their `readyState` has buffered the exact required frame.
@@ -48,7 +48,7 @@ The application state is managed via a strict, immutable history stack that enab
 *   🎨 **Advanced Styling & Effects:** Support for dynamic animated mesh gradients, frosted glass overlays, drop shadows, strokes, and complex object masking.
 *   💻 **Raw Code Injection:** Add "Code" assets to inject raw HTML, CSS, and SVG directly into the rendering pipeline for limitless visual possibilities.
 
-![Key Features](screenshot3.gif)
+![Key Features](src/screenshot3.gif)
 
 ## 🌌 Backgrounds, Grids & Canvas Textures
 
