@@ -28,6 +28,7 @@ At the core of the studio is a highly optimized HTML5 Canvas rendering pipeline.
 *   **Hybrid DOM/Canvas Compositing:** While standard assets (video, image, text) are drawn directly to the canvas, "Code" assets (raw HTML/CSS/SVG) are rendered via a synchronized DOM overlay that perfectly tracks the virtual camera's matrix transformations, allowing for CSS animations to exist seamlessly within the video space.
 
 ### 2. Deterministic Export & Media Sync
+![Deterministic Export & Media Sync](screenshot2.png)
 Exporting high-fidelity video in the browser requires bypassing standard real-time playback limitations.
 *   **WebCodecs Integration:** The export pipeline utilizes the low-level `VideoEncoder` and `AudioEncoder` APIs to bake frames directly to MP4 (H.264/AAC) or WebM (VP9/Opus) containers.
 *   **Binary-Lock Frame Sync:** To ensure zero dropped frames during rendering, the engine uses a custom "binary-lock" mechanism that pauses the rendering loop until HTMLVideoElements confirm their `readyState` has buffered the exact required frame.
