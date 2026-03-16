@@ -17,7 +17,7 @@ Tarayıcı üzerinden doğrudan video düzenleme imkanı sunan **InfiniteMotion 
 
 ![Sistem Mimarisi ve Teknik İnovasyonlar](src/screenshot1.png)
 
-## 🏗️ Sistem yöntemi ve Teknik İnovasyonlar
+## 🏗️ Sistem yöntimi ve Teknik İnovasyonlar
 
 InfiniteMotion Studio özel (proprietary) bir kod tabanına sahip olduğu için, bu bölüm platformu ayakta tutan mühendislik kararlarına ve altyapıya genel bir bakış sunar.
 
